@@ -4,11 +4,11 @@ for i in range(19):
     
     for j in range(i):
         if i < 10:
-            print("@",end=" ")
+            print(" ",end=" ")
 
     for l in range(i-1):
         if i <10:
-            print("@",end=" ")
+            print(" ",end=" ")
 
 
     for k in range(9-i,-1,-1):
@@ -25,9 +25,9 @@ for i in range(19):
         for m in range(i-8):
             print(m,end=" ")
         for n in range(18-i,0,-1):
-            print("@",end=" ")
+            print(" ",end=" ")
         for o in range(17-i,0,-1):
-            print("@",end=" ")
+            print(" ",end=" ")
         
         for p in range(i-9,-1,-1):
             if i == 18:
@@ -36,4 +36,3 @@ for i in range(19):
             print(p,end=" ")
     
     print()
-
